@@ -37,7 +37,7 @@ if (!empty($_POST)) {
         <label for=""></label>
         <input type="text" name="site"  id="site">
         
-        <input type="submit" value="Create">
+        <input type="submit" value="Criar">
     </form>
     <?php if ($msg): ?>
     <p><?=$msg?></p>
@@ -45,9 +45,3 @@ if (!empty($_POST)) {
 </div>
 
 <?=template_footer()?>
-
-
-
-
-
-?>
