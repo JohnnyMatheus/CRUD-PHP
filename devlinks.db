@@ -1,0 +1,11 @@
+create database devcrud;
+use devcrud;
+
+create table links (
+    id int not null auto_increment primary key,
+    nome varchar(255) not null,
+    categoria varchar(255) not null,
+    descricao text not null,
+    site text not null
+
+);
