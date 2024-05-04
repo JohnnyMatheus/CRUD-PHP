@@ -26,12 +26,13 @@ $num_links = $pdo->query('SELECT COUNT(*) FROM links')->fetchColumn();
 	<table>
         <thead>
             <tr>
-                
+                <td>#</td>
+                <td></td>
                 <td>Nome</td>
                 <td>Categoria</td>
                 <td>Descricao</td>
                 <td>Site</td>
-                <td></td>
+
             </tr>
         </thead>
         <tbody>
