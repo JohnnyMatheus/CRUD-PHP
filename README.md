@@ -1,2 +1,2 @@
 # CRUD-PHP
-Projeto sofrendo alterações e ajustes
+Realizando correções de bugs e ajustes de interface
